@@ -1,0 +1,17 @@
+
+POST http://localhost:3333/classes HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Damian Meneses",
+    "avatar": "https://avatars2.githubusercontent.com/u/23224543?s=460&u=945a2daa9a3e41c98aebc6744d9c5732c7fd475c&v=4",
+    "whatsapp": "129999-0033",
+    "bio" : "mini bio lorem ipsum ipsuliteral",
+    "subject": "matematica",
+    "cost": 80,
+    "schedule" : [
+        { "week_day": "1", "from": "8:00", "to": "12:00" },
+        { "week_day": "3", "from": "10:00", "to": "18:00" },
+        { "week_day": "4", "from": "8:00", "to": "12:00" }
+    ]
+}
